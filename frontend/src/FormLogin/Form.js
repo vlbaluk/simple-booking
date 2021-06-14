@@ -15,7 +15,7 @@ function Form() {
 
     return (<>
             <h1>Login</h1>
-            {state.passwordIncorrected && <div className="alert alert-danger">Password is Incorrect</div>}
+            {state.passwordIncorrected && <div className="alert alert-danger">UserName or Password is Incorrect</div>}
 
             <BootstrapForm onSubmit={handleSubmit} className="custom-form">
                 <BootstrapForm.Row>

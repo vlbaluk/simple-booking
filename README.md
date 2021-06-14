@@ -19,8 +19,8 @@ Frontend
 ## Run the Application
 
 ## Installation
-you need to have installed docker engine
-you need to have installed <a href="https://docs.docker.com/compose/install/">docker-compose
+- you need to have installed docker engine,
+- you need to have installed <a href="https://docs.docker.com/compose/install/">docker-compose
 </a>
 ```bash
 $ git pull repository 
