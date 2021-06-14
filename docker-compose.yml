@@ -1,14 +1,6 @@
 version: '3.1'
 
 services:
-  #  db:
-  #    container_name: db_postgres
-  #    image: postgres
-  #    restart: always
-  #    ports:
-  #      - 5432:5432
-  #    environment:
-  #      POSTGRES_PASSWORD: example
   server:
     container_name: server
     build: .
@@ -16,6 +8,7 @@ services:
       - 8080:8080
 
   frontend:
+    container_name: frontend
     build: ./frontend
     ports:
       - "3000:3000"

@@ -27,7 +27,7 @@ $ git pull repository
 $ cd {installed folder}
 
 
-$ docker-compose up -d
+$ docker-compose up -d 
 ```
 this command will build and run 2 services(frontend and backend) for application
 
