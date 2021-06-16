@@ -22,16 +22,18 @@ Frontend
 - you need to have installed docker engine,
 - you need to have installed <a href="https://docs.docker.com/compose/install/">docker-compose
 </a>
+
 ```bash
 $ git pull repository 
-$ cd {installed folder}
+$ cd {project folder}
 
 
 $ docker-compose up -d 
 ```
+
 this command will build and run 2 services(frontend and backend) for application
 
-Finally open <a href="localhost:3000">localhost:3000</a> in your browser after a while.
+Finally open <a href="http://localhost:3000/">localhost:3000</a> in your browser after a while.
 You need to create account and log in before start working with bookings.
 
 Application uses in-memory H2 database. It was in requirements.
